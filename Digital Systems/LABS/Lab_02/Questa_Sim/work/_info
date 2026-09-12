@@ -1,0 +1,133 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/questasim64_2021.1/examples
+T_opt
+!s110 1771826682
+V_7;8LYOKMoL^CaG43o0mf2
+04 13 4 work full_adder_tb fast 0
+=1-84ba598c061e-699bedfa-d6-5510
+Z2 !s124 OEM100
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1771828028
+VF>0cmki[675JPESAJ4oQN3
+04 26 4 work Ripple_Carry_Adder_3bit_tb fast 0
+=1-84ba598c061e-699bf33c-dd-4198
+R2
+R3
+R4
+n@_opt1
+R5
+R1
+vfull_adder
+Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z7 !s110 1772008621
+!i10b 1
+!s100 5jXz6ck_UQfoi_k73ej;m3
+If_ez=O<50i:i?SLYS4R<L2
+S1
+Z8 dE:/DSD LAB/LAB 2
+Z9 w1771827518
+Z10 8E:/DSD LAB/LAB 2/full_adder_3_bit.sv
+Z11 FE:/DSD LAB/LAB 2/full_adder_3_bit.sv
+!i122 12
+L0 1 17
+Z12 VDg1SIo80bB@j0V0VzS_@n1
+Z13 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z14 !s108 1772008621.000000
+Z15 !s107 E:/DSD LAB/LAB 2/full_adder_3_bit.sv|
+Z16 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/DSD LAB/LAB 2/full_adder_3_bit.sv|
+!i113 0
+Z17 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vfull_adder_tb
+R6
+!s110 1771828001
+!i10b 1
+!s100 Pe`T0[[K]Oc;eem1<`Ea[1
+I5OLjfHUd5kNTD^iVmj8;h2
+S1
+R8
+w1771409351
+8E:/DSD LAB/LAB2 old/full_adder_1_bit_tb.sv
+FE:/DSD LAB/LAB2 old/full_adder_1_bit_tb.sv
+!i122 7
+L0 1 58
+R12
+R13
+r1
+!s85 0
+31
+!s108 1771828001.000000
+!s107 E:/DSD LAB/LAB2 old/full_adder_1_bit_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/DSD LAB/LAB2 old/full_adder_1_bit_tb.sv|
+!i113 0
+R17
+R4
+vRipple_Carry_Adder_3bit
+R6
+R7
+!i10b 1
+!s100 Y^I_MG3lAO8:G7:k6L2L=1
+IfJbK>LaFonaZkh53K4[H]1
+S1
+R8
+R9
+R10
+R11
+!i122 12
+L0 19 30
+R12
+R13
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R17
+R4
+n@ripple_@carry_@adder_3bit
+vRipple_Carry_Adder_3bit_tb
+R6
+R7
+!i10b 1
+!s100 :n;<og9fBn1QlaW><ULk=1
+IAQg@mo=kbFzT8FT?GA:0J2
+S1
+R8
+w1771828255
+8E:/DSD LAB/LAB 2/full_adder_3_bit_tb.sv
+FE:/DSD LAB/LAB 2/full_adder_3_bit_tb.sv
+!i122 13
+L0 1 32
+R12
+R13
+r1
+!s85 0
+31
+R14
+!s107 E:/DSD LAB/LAB 2/full_adder_3_bit_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/DSD LAB/LAB 2/full_adder_3_bit_tb.sv|
+!i113 0
+R17
+R4
+n@ripple_@carry_@adder_3bit_tb
