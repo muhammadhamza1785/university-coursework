@@ -4,7 +4,7 @@ This directory contains the QuestaSim workspace files, binary waveform logs (`.w
 
 ---
 
-## 📁 Files Overview
+##  Files Overview
 
 * **`work/`**: Auto-generated target compilation library.
 * **`*.mpf`**: QuestaSim main project file.
@@ -14,7 +14,7 @@ This directory contains the QuestaSim workspace files, binary waveform logs (`.w
 
 ---
 
-## 🚀 How to Run the Simulation locally
+##  How to Run the Simulation locally
 
 Since GitHub only hosts source files and cannot execute code directly in the browser, follow these steps to run the simulation on your machine:
 
