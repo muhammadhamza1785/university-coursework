@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue May  5 23:24:48 2026
+# Process ID: 7648
+# Current directory: E:/DSD LAB/LAB1/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19604 E:\DSD LAB\LAB1\project_1\project_1.xpr
+# Log file: E:/DSD LAB/LAB1/project_1/vivado.log
+# Journal file: E:/DSD LAB/LAB1/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/DSD LAB/LAB1/project_1/project_1.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:37 ; elapsed = 00:00:28 . Memory (MB): peak = 844.684 ; gain = 144.125
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: and_gate
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 953.664 ; gain = 100.750
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'and_gate' [E:/DSD LAB/LAB1/and_gate.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'and_gate' (1#1) [E:/DSD LAB/LAB1/and_gate.sv:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 963.543 ; gain = 110.629
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 963.543 ; gain = 110.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 963.543 ; gain = 110.629
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/DSD LAB/LAB1/project_1/project_1.srcs/constrs_1/new/LAB_1_DSD.xdc]
+Finished Parsing XDC File [E:/DSD LAB/LAB1/project_1/project_1.srcs/constrs_1/new/LAB_1_DSD.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:49 ; elapsed = 00:00:41 . Memory (MB): peak = 1378.352 ; gain = 525.438
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:49 ; elapsed = 00:00:41 . Memory (MB): peak = 1378.352 ; gain = 525.438
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May  5 23:32:05 2026...
