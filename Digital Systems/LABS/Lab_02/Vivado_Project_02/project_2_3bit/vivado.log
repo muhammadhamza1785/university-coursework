@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue May  5 23:52:29 2026
+# Process ID: 6464
+# Current directory: E:/DSD LAB/LAB 2/project_2_3bit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8120 E:\DSD LAB\LAB 2\project_2_3bit\project_2_3bit.xpr
+# Log file: E:/DSD LAB/LAB 2/project_2_3bit/vivado.log
+# Journal file: E:/DSD LAB/LAB 2/project_2_3bit\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/DSD LAB/LAB 2/project_2_3bit/project_2_3bit.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:33 ; elapsed = 00:00:29 . Memory (MB): peak = 873.516 ; gain = 124.148
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: Ripple_Carry_Adder_3bit
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 969.410 ; gain = 82.242
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Ripple_Carry_Adder_3bit' [E:/DSD LAB/LAB 2/full_adder_3_bit.sv:19]
+INFO: [Synth 8-6157] synthesizing module 'full_adder' [E:/DSD LAB/LAB 2/full_adder_3_bit.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'full_adder' (1#1) [E:/DSD LAB/LAB 2/full_adder_3_bit.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'Ripple_Carry_Adder_3bit' (2#1) [E:/DSD LAB/LAB 2/full_adder_3_bit.sv:19]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1004.988 ; gain = 117.820
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1004.988 ; gain = 117.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1004.988 ; gain = 117.820
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/DSD LAB/LAB 2/project_2_3bit/project_2_3bit.srcs/constrs_1/new/LAB2_3BIT.xdc]
+Finished Parsing XDC File [E:/DSD LAB/LAB 2/project_2_3bit/project_2_3bit.srcs/constrs_1/new/LAB2_3BIT.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:51 ; elapsed = 00:00:42 . Memory (MB): peak = 1397.621 ; gain = 510.453
+8 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:00:42 . Memory (MB): peak = 1397.621 ; gain = 510.453
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May  6 00:05:15 2026...

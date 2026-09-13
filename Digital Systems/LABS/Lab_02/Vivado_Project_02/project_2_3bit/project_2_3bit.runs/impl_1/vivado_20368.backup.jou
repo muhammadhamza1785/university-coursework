@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Feb 23 12:38:15 2026
+# Process ID: 20368
+# Current directory: E:/DSD LAB/LAB 2/project_2_3bit/project_2_3bit.runs/impl_1
+# Command line: vivado.exe -log Ripple_Carry_Adder_3bit.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Ripple_Carry_Adder_3bit.tcl -notrace
+# Log file: E:/DSD LAB/LAB 2/project_2_3bit/project_2_3bit.runs/impl_1/Ripple_Carry_Adder_3bit.vdi
+# Journal file: E:/DSD LAB/LAB 2/project_2_3bit/project_2_3bit.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Ripple_Carry_Adder_3bit.tcl -notrace
